@@ -14,6 +14,7 @@ var valoresDefecto = function() {
     $('#contenedor').addClass("background-default");
     $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/amarillo.png");
     $('#header').css("background-color", "gray");
+    $('#botones').addClass("hide");
 
 
 };
@@ -24,7 +25,7 @@ var btnNaranjaClick = function() {
         $('#imgNaranja').removeClass("hide");
         $('#lnkSgte').removeClass("hide");
         $('#logo').addClass("hide");
-        $('#botones').addClass("hide");
+
         $('#contenedor').removeClass('background-naranja');
         $('#contenedor').addClass('background-naranja1');
 
@@ -35,6 +36,7 @@ var btnNaranjaOver = function() {
     $('#contenedor').removeClass("background-default");
     $('#contenedor').addClass("background-naranja");
     $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/rojo.png");
+    valoresDefecto();
 
 };
 
@@ -63,7 +65,7 @@ var btnRojoClick = function() {
         btnClicked = true;
         $('#imgRojo').removeClass("hide");
         $('#logo').addClass("hide");
-        $('#botones').addClass("hide");
+        //$('#botones').addClass("hide");
         $('#contenedor').removeClass('background-rojo');
         $('#contenedor').addClass('background-rojo1');
 
@@ -93,6 +95,7 @@ var btnVerdeClick = function() {
         $('#logo').addClass("hide");
         $('#contenedor').removeClass('background-verde');
         $('#contenedor').addClass('background-verde1');
+        //$('#botones').addClass("hide");
 
 
     }
@@ -122,6 +125,7 @@ var btnAzulClick = function() {
         $('#logo').addClass("hide");
         $('#contenedor').removeClass('background-azul');
         $('#contenedor').addClass('background-azul1');
+        //$('#botones').addClass("hide");
 
 
 
@@ -217,7 +221,7 @@ var deshacer_click_btnNaranja = function() {
         $('#imgNaranja').addClass("hide");
         $('#lnkSgte').addClass("hide");
         $('#logo').removeClass("hide");
-        //$('#botones').removeClass("hide");
+        $('#botones').removeClass("hide");
 
         //valoresDefecto();
     }
@@ -244,18 +248,18 @@ var deshacer_click_btnNaranja = function() {
     }
     layerAzulClicked = false;
 
-    // if (!layerAzulGaleriaClicked) {
+    if (!layerVerdeClicked) {
+        btnClicked = false;
+        $('#imgVerde').addClass("hide");
+        $('#contenedor').removeClass('background-verde1');
+        //$('#logo').removeClass("hide");
+        //$('#botones').removeClass("hide");
+        //valoresDefecto();
 
-    //     btnClicked = false;
-    //     $('#contenedor').removeClass("background-azulimagen");
-    //     $('#imgAzulimagenes').addClass("hide");
-    //     $('#galeria_1').addClass("hide");
-    //     //$('#logo').removeClass("hide");
-    //     //$('#botones').removeClass("hide");
-    //     //valoresDefecto();
-    // }
-    // layerAzulClicked = false;
 
+    }
+    layerVerdeClicked = false;
+    $('#botones').removeClass("hide");
 };
 
 var btnFacebookClick = function() {

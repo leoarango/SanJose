@@ -262,55 +262,33 @@ footer {
 /* Azul */
 
 #imgAzul {
-    width: 750px;
-    height: 540px;
+    width: 54vw;
+    height: 41.5vw;
     position: absolute;
-    bottom: 4vh;
-    left: 00px;
-    top: 98px
-}
-
-#btnAzulGaleria {
-    position: absolute;
-    top: 286px;
-    /* distancia vertical*/
-    left: 111px;
-    /* distancia horizontal*/
-    width: 115px;
-    /*200px*/
-    height: 84px;
-    /*200px*/
-}
-
-#imgAzulimagenes {
-    width: 750px;
-    height: 540px;
-    position: absolute;
-    bottom: 4vh;
-    left: 00px;
-    top: 98px
+    /* bottom: 4vh; */
+    top: 5.2vw;
+    left: 0vw;
 }
 
 #galeria_1 {
     position: absolute;
-    top: 286px;
+    top: 19.2vw;
     /* distancia vertical*/
-    left: 111px;
+    left: 7.9vw;
     /* distancia horizontal*/
-    width: 115px;
+    width: 8.4vw;
     /*200px*/
-    height: 84px;
-    /*200px*/
+    height: 7vw;
 }
 
 
 /* verde */
 
 #imgVerde {
-    height: 510px;
+    height: 37.5vw;
     position: absolute;
-    top: 16px;
-    left: 380px;
+    top: 1.2vw;
+    left: 27vw;
     border: none;
 }
 

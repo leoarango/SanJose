@@ -1,0 +1,340 @@
+#body-mediano {
+    height: 90%;
+    width: 90%;
+    background-image: url("../assets/Images/Otros/under-construction-2891888_640.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: 100% 95%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#color-fondo {
+    background: gray;
+    position: relative;
+    top: 0px;
+    width: 98.75vw;
+    height: 100vh;
+}
+
+.background-default {
+    background-image: url("../assets/Images/backgrounds/background.jpg");
+}
+
+.background-naranja {
+    background-image: url("../assets/Images/backgrounds/naranja.jpg");
+}
+
+.background-naranja1 {
+    background-image: url("../assets/Images/backgrounds/naranja1.jpg");
+}
+
+.background-rojo {
+    background-image: url("../assets/Images/backgrounds/rojo.jpg");
+}
+
+.background-rojo1 {
+    background-image: url("../assets/Images/backgrounds/rojo1.jpg");
+}
+
+.background-rosa {
+    background-image: url("../assets/Images/backgrounds/rosa.jpg");
+    left: -1px;
+}
+
+.background-rosa1 {
+    background-image: url("../assets/Images/backgrounds/rosa1.jpg");
+    left: -1px;
+}
+
+.background-azul {
+    background-image: url("../assets/Images/backgrounds/azul.jpg");
+}
+
+.background-azul1 {
+    background-image: url("../assets/Images/backgrounds/azul1.jpg");
+}
+
+.background-verde {
+    background-image: url("../assets/Images/backgrounds/verde.jpg");
+}
+
+.background-verde1 {
+    background-image: url("../assets/Images/backgrounds/verde1.jpg");
+}
+
+
+/* temporal verde */
+
+.background-verde2 {
+    background-image: url("../assets/Images/ElementodVerde/verde.PNG");
+}
+
+.background-azul2 {
+    background-image: url("../assets/Images/ElementoAzul/Azul2.JPG");
+}
+
+.background-azulimagen {
+    background-image: url("../assets/Images/ElementoAzul/Azul2.1.JPG");
+}
+
+.background-galeria_1 {
+    background-image: url("../assets/Images/ElementoAzul/1.jpg");
+}
+
+#preloader {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+footer {
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+    float: bottom;
+}
+
+#header {
+    position: relative;
+    top: 0px;
+    right: 3px;
+    background-color: #808080;
+    height: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#logo {
+    position: absolute;
+    top: 10%;
+    /* 115 px*/
+    left: 5.5%;
+    /* 75 px*/
+    width: 15vw;
+    /*200px*/
+    height: 30vh;
+    /*200px*/
+}
+
+#btnRojo {
+    width: 21vw;
+    /*290 px*/
+    height: 20vh;
+    /*170 px*/
+    top: 24vh;
+    /*115 px*/
+    left: 25.5vw;
+    /*350 px*/
+    background: none;
+}
+
+#btnNaranja {
+    width: 11vw;
+    /*145 px*/
+    height: 48vh;
+    /*315 px*/
+    top: 50vh;
+    /*330 px*/
+    left: 2vw;
+    /*25 px*/
+    background: none;
+}
+
+#btnAzul {
+    width: 19vw;
+    /*255 px*/
+    height: 29vh;
+    /*240 px*/
+    top: 54vh;
+    /*245 px*/
+    left: 46vw;
+    /*635 px*/
+    background: none;
+}
+
+#btnVerde {
+    width: 17vw;
+    /*230 px*/
+    height: 25vh;
+    /*200 px*/
+    top: 53vh;
+    /*355 px*/
+    left: 27vw;
+    /*380 px*/
+    background: none;
+}
+
+#btnRosa {
+    width: 17vw;
+    /*230 px*/
+    height: 13vh;
+    /*100 px*/
+    top: 52vh;
+    /*340 px*/
+    right: 7.5vw;
+    /*105 px*/
+    background: none;
+}
+
+.boton-casas {
+    position: absolute;
+    padding: 0;
+    border: none;
+    /*border: 1px solid yellow;*/
+}
+
+.botones {
+    position: absolute;
+    right: 0%;
+    top: 37%;
+    border: none;
+}
+
+.boton {
+    padding: 0;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.manito:hover {
+    cursor: pointer;
+    background: none;
+}
+
+#imgNaranja {
+    width: 90vw;
+    height: 58vh;
+    position: absolute;
+    bottom: 4vh;
+    /*248 px*/
+    left: 8.625vw;
+    /*118 px*/
+}
+
+
+/* #imgNaranja2 {
+    height: 307px;
+    position: absolute;
+    top: 350px;
+    left: 220px;
+    border: none;
+} */
+
+
+/* rojo */
+
+#imgRojo {
+    width: 74vw;
+    height: 72vh;
+    position: absolute;
+    bottom: 4vh;
+    left: 25.2vw;
+    /* 350 */
+    /* top: 24vh; */
+}
+
+#imgRojo2 {
+    height: 380px;
+    position: absolute;
+    /* vertical */
+    top: 142px;
+    left: 320px;
+    border: none;
+}
+
+
+/* Azul */
+
+#imgAzul {
+    width: 750px;
+    height: 540px;
+    position: absolute;
+    bottom: 4vh;
+    left: 00px;
+    top: 98px
+}
+
+#btnAzulGaleria {
+    position: absolute;
+    top: 286px;
+    /* distancia vertical*/
+    left: 111px;
+    /* distancia horizontal*/
+    width: 115px;
+    /*200px*/
+    height: 84px;
+    /*200px*/
+}
+
+#imgAzulimagenes {
+    width: 750px;
+    height: 540px;
+    position: absolute;
+    bottom: 4vh;
+    left: 00px;
+    top: 98px
+}
+
+#galeria_1 {
+    position: absolute;
+    top: 286px;
+    /* distancia vertical*/
+    left: 111px;
+    /* distancia horizontal*/
+    width: 115px;
+    /*200px*/
+    height: 84px;
+    /*200px*/
+}
+
+
+/* verde */
+
+#imgVerde {
+    height: 510px;
+    position: absolute;
+    top: 16px;
+    left: 380px;
+    border: none;
+}
+
+#lnkSgte {
+    position: absolute;
+    top: 88vh;
+    /*578 px*/
+    right: 2vw;
+    /*25 px*/
+    color: black;
+    font-size: medium;
+    text-align: right;
+}
+
+#lnkSgte:hover {
+    text-decoration: underline;
+}
+
+.once {
+    animation-duration: 3s;
+    animation-delay: 500ms;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

@@ -12,7 +12,7 @@ var numImg = 1;
 
 var valoresDefecto = function() {
     $('#contenedor').addClass("background-default");
-    $('#logo').attr("src", "../assets/Images/Logo%20San%20José%20en%20colores/amarillo.png");
+    $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/amarillo.png");
     $('#header').css("background-color", "gray");
 
 
@@ -34,7 +34,7 @@ var btnNaranjaClick = function() {
 var btnNaranjaOver = function() {
     $('#contenedor').removeClass("background-default");
     $('#contenedor').addClass("background-naranja");
-    $('#logo').attr("src", "../../assets/Images/Logo%20San%20José%20en%20colores/rojo.png");
+    $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/rojo.png");
 
 };
 
@@ -73,7 +73,7 @@ var btnRojoOver = function() {
     if (!btnClicked) {
         $('#contenedor').removeClass("background-default");
         $('#contenedor').addClass("background-rojo");
-        $('#logo').attr("src", "../assets/Images/Logo%20San%20José%20en%20colores/azul.png");
+        $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/azul.png");
         // $('#header').css("background-color", "rgb(197, 69, 55)");
         $('#imgRojo2').removeClass("hide");
     }
@@ -102,7 +102,7 @@ var btnVerdeOver = function() {
     if (!btnClicked) {
         $('#contenedor').removeClass("background-default");
         $('#contenedor').addClass("background-verde");
-        $('#logo').attr("src", "../assets/Images/Logo%20San%20José%20en%20colores/naranja.png");
+        $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/naranja.png");
         $('#header').css("background-color", "rgb(111, 159, 61)");
     }
 
@@ -144,7 +144,7 @@ var btnAzulOver = function() {
 
         $('#contenedor').removeClass("background-default");
         $('#contenedor').addClass("background-azul");
-        $('#logo').attr("src", "../assets/Images/Logo%20San%20José%20en%20colores/rosado.png");
+        $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/rosado.png");
         $('#header').css("background-color", "rgb(51, 138, 192)");
 
     }
@@ -160,7 +160,7 @@ var btnRosaOver = function() {
     if (!btnClicked) {
         $('#contenedor').removeClass("background-default");
         $('#contenedor').addClass("background-rosa");
-        $('#logo').attr("src", "../assets/Images/Logo%20San%20José%20en%20colores/verde.png");
+        $('#logo').attr("src", "assets/Images/Logo%20San%20José%20en%20colores/verde.png");
         $('#header').css("background-color", "rgb(212, 132, 60)");
     }
 };
@@ -182,7 +182,7 @@ var lnkSgteClick = function(event) {
         textLink = "Vuelve a la página principal<br>" + numImg + "/4";
     }
 
-    $('#imgNaranja').prop('src', "../assets/Images/Elementos%20%20Qué%20proponemos/elemento-0" + numImg + ".png");
+    $('#imgNaranja').prop('src', "assets/Images/Elementos%20%20Qué%20proponemos/elemento-0" + numImg + ".png");
     $('#lnkSgte').html(textLink);
 };
 
